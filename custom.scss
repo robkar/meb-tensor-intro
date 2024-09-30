@@ -1,0 +1,35 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: "DM Sans", Helvetica, sans-serif;
+
+$dark-plum: #4F0433;
+$orange: #FF876F;
+$light-orange: #FEEEEB;
+$light-blue: #EDF4F4;
+$plum: #870052;
+
+$presentation-heading-color: $dark-plum;
+$presentation-heading-line-height: 1.1;
+
+$presentation-line-height: 1.2;
+
+/*-- scss:rules --*/
+
+.reveal .slide li::marker {color: $dark-plum;}
+.reveal .slide h2 a {color: $orange; }
+
+.reveal pre code {background-color: #d0d0d0;}
+
+.reveal code.sourceCode {
+  font-size: 1.4em;
+  /* font-size: x-large; */
+}
+
+/*
+KI colors:
+"mörk plommon": #4F0433
+orange: #FF876F
+ljusorange: #FEEEEB
+ljusblå: #EDF4F4
+plommon (logotypfärg): #870052
+*/
