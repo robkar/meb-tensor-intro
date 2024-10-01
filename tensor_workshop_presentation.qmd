@@ -347,7 +347,6 @@ Note that `seff` memory statistics do not always capture spikes in memory usage
     - check status (squeue)
     - examine output (cat slurm-$JOBID.out)
 
-- **ONLY FOR TODAY:** add `--reservation=workshop` to your sbatch commands to skip the queue
 
 - Example scripts available from
     
